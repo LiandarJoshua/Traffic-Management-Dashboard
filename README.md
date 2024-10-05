@@ -19,8 +19,7 @@ Traffic Management Insights: By analyzing the collected data, the dashboard prov
 - **Results Display**: After processing, users can view the processed video directly in the dashboard.
 
 ## Technologies Used
--Python
--SQLite3
+-Python,SQLite3
 
 
 - [Streamlit](https://streamlit.io/) - Framework for building interactive web applications in Python.
