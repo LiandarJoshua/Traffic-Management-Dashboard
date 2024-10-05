@@ -33,5 +33,5 @@ Traffic Management Insights: By analyzing the collected data, the dashboard prov
 
 Note: Conda Environment file and runs folder could not be uploaded due to large size.
 
-<img width="1280" alt="results2traffic" src="https://github.com/user-attachments/assets/565f9a84-8bc6-4bc9-8e52-727fd1a8c83b">
-<img width="1271" alt="results1traffic" src="https://github.com/user-attachments/assets/c2535b3a-9daa-4bf1-9f80-f9c17b6ac608">
+<img width="600" alt="results2traffic" src="https://github.com/user-attachments/assets/565f9a84-8bc6-4bc9-8e52-727fd1a8c83b">
+<img width="600" alt="results1traffic" src="https://github.com/user-attachments/assets/c2535b3a-9daa-4bf1-9f80-f9c17b6ac608">
