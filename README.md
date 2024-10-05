@@ -33,6 +33,11 @@ Traffic Management Insights: By analyzing the collected data, the dashboard prov
 
 Note: Conda Environment file and runs folder could not be uploaded due to large size.
 
+<img src="result1traffic.png" alt="Result 1 Traffic Analysis" width="600" />
+
+### Result 2: Traffic Analysis
+<img src="result2traffic.png" alt="Result 2 Traffic Analysis" width="600" />
+
 
 
 
