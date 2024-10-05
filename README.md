@@ -38,5 +38,4 @@ Note: Conda Environment file and runs folder could not be uploaded due to large 
 
 ![Result 1 Traffic Analysis](result1traffic.png)
 
-![Result 2 Traffic Analysis](result2traffic.png)
-
+results1traffic.png
