@@ -19,11 +19,15 @@ Traffic Management Insights: By analyzing the collected data, the dashboard prov
 - **Results Display**: After processing, users can view the processed video directly in the dashboard.
 
 ## Technologies Used
+-Python
+-SQLite3
+
 
 - [Streamlit](https://streamlit.io/) - Framework for building interactive web applications in Python.
 - [OpenCV](https://opencv.org/) - Library for computer vision and video processing.
 - [NumPy](https://numpy.org/) - Library for numerical operations.
 - [Pandas](https://pandas.pydata.org/) - Data manipulation and analysis library.
+- YOLO Object Detection Model
 
 ## Installation
 
