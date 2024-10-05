@@ -36,6 +36,7 @@ Note: Conda Environment file and runs folder could not be uploaded due to large 
 
 
 
-<img width="1277" alt="image" src="https://github.com/user-attachments/assets/c90e4aba-e173-4c85-925b-1a6c2fbb5acb">
+![Result 1 Traffic Analysis](result1traffic.png)
 
-<img width="1271" alt="image" src="https://github.com/user-attachments/assets/2370fe76-9ff0-409c-9e8b-3981eb10c4d3">
+![Result 2 Traffic Analysis](result2traffic.png)
+
