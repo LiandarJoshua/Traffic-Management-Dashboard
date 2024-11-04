@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traffic Analysis Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #4CAF50;
+      --secondary-color: #2196F3;
+      --bg-color: #f0f0f0;
+      --text-color: #333;
+      --accent-color: #FFC107;
+    }
 
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 40px;
+      color: var(--primary-color);
+      text-align: center;
+      animation: slideIn 0.5s ease-in-out;
+    }
+
+    .uploaded-video {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .uploaded-video:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .video-container {
+      text-align: center;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 2px solid var(--accent-color);
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .warning {
+      color: #E53935;
+      font-weight: bold;
+      animation: shake 0.5s ease-in-out;
+    }
+
+    .success {
+      color: var(--primary-color);
+      font-weight: bold;
+      animation: bounce 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(-20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-5px); }
+      50% { transform: translateX(5px); }
+      75% { transform: translateX(-5px); }
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Traffic Analysis Dashboard</h1>
+    </div>
+
+    <div class="section-title">Upload Video for Analysis</div>
+    <div class="uploaded-video">
+      <div class="video-container">
+        <video controls>
+          <source src="/api/placeholder/640/360" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <div class="section-title">Processing Results</div>
+    <div class="warning">This video has already been processed.</div>
+  </div>
+</body>
+</html>
